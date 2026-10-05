@@ -1,77 +1,86 @@
-# Background
+# 🏜️ Desert View
 
-A clean and visually appealing static web page that presents a desert-themed background design with centered content overlay.
+A simple and visually appealing HTML/CSS webpage showcasing a desert landscape with a centered heading and inspirational quote.
 
-## Overview
+## 📌 About the Project
 
-This project is a simple HTML/CSS implementation that uses a full-page background image to create an immersive landing page. The design focuses on elegance, readability, and a minimal layout while maintaining a strong visual impact.
+**Desert View** is a beginner-friendly web design project created using **HTML and CSS**. The page uses a desert image as a full-screen background and places a semi-transparent content section over it.
 
-The page includes:
-- A full-viewport background image
-- Centered content card with translucent styling
-- Large heading and descriptive text
-- Clean, modern presentation using plain HTML and CSS
+The current page includes:
 
-## Project Structure
+- A full-page desert background image
+- A large **“Desert view”** heading
+- An inspirational nature quote
+- A semi-transparent content box
+- Responsive viewport configuration
+- Simple CSS-based styling
+
+## 🛠️ Technologies Used
+
+- **HTML5**
+- **CSS3**
+
+## 📂 Project Structure
 
 ```text
-Background/
-├── Assignment_1/
-│   ├── index.html
-│   └── Desert.jpg
+Desert-View/
+│
+├── index.html
+├── Desert.jpg
 └── README.md
 ```
 
-## Files
+> **Important:** The `Desert.jpg` image is required because the HTML file uses it as the background image.
 
-- `Assignment_1/index.html` – Main page structure and styling
-- `Assignment_1/Desert.jpg` – Background image used in the layout
+## 🚀 How to Run
 
-## Features
+1. Download or clone this repository.
+2. Make sure `index.html` and `Desert.jpg` are in the same folder.
+3. Open `index.html` in any modern web browser.
 
-- Responsive full-screen layout
-- Beautiful desert-inspired design
-- Minimal, lightweight implementation with no external dependencies
-- Easily editable HTML and CSS for quick customization
+No installation or additional software is required.
 
-## Preview
+## 🎨 Design
 
-To view the page locally:
+The webpage uses a simple visual style:
 
-1. Open `Assignment_1/index.html` in a browser, or
-2. Serve the folder using a local web server if preferred
+- Full-screen background image
+- Center-aligned text
+- Large typography
+- Semi-transparent white content area
+- Minimal and clean layout
 
-Example:
+## 💻 Main HTML Content
 
-```bash
-cd Assignment_1
-python -m http.server 8000
+The page displays:
+
+> **Desert view**
+
+> *A mountain without Water looks like a Beautiful Artifact of Nature.*
+
+## 📸 Preview
+
+Add a screenshot of your webpage here:
+
+```md
+![Desert View Preview](preview.png)
 ```
 
-Then open:
+## 📚 Learning Purpose
 
-```text
-http://localhost:8000
-```
+This project is suitable for practicing basic:
 
-## Customization
+- HTML page structure
+- CSS styling
+- Background images
+- Typography
+- Transparency using RGBA colors
+- Basic webpage layout
 
-You can easily personalize the page by editing the following sections in `Assignment_1/index.html`:
+## 👨‍💻 Author
 
-- The page title and heading text
-- The descriptive paragraph
-- The background image path
-- Colors, spacing, and typography styles
+**Deepak Rawat**
 
-## Tech Stack
+---
 
-- HTML5
-- CSS3
-
-## Purpose
-
-This repository demonstrates a simple background-image layout exercise and can serve as a starting point for learning front-end page design, CSS styling, and content placement.
-
-## Author
-
-Developed as a small front-end design project focused on aesthetic page composition and background styling.
+⭐ If you found this project useful, feel free to star the repository.
